@@ -1,0 +1,115 @@
+{
+  "main": {
+    "id": "2ad23285f96c33d3",
+    "type": "split",
+    "children": [
+      {
+        "id": "d19abba2318ea610",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "rest-api.md",
+            "mode": "source"
+          }
+        },
+        "group": "d38dc36eee798771"
+      },
+      {
+        "id": "ba0846e2813d7210",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "rest-api.md",
+            "mode": "preview"
+          }
+        },
+        "group": "d38dc36eee798771"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9317deb3f68cef19",
+    "type": "split",
+    "children": [
+      {
+        "id": "4628a1b9a615eee7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6aad05326f024524",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "cea3565599e84bb4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 205.01218795776367
+  },
+  "right": {
+    "id": "51c3862265ef4b33",
+    "type": "split",
+    "children": [
+      {
+        "id": "5f8ee273a7bec3b3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "34c4ec11aeb9d10b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "rest-api.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "ba0846e2813d7210",
+  "lastOpenFiles": [
+    "rest-api.md",
+    "Notebook Allegories.md",
+    "MIME Type.md",
+    "REST API.md",
+    "Indempotence.md",
+    "self-study/REST API.md",
+    "self-study/Indempotence.md",
+    "imposters-handbook/Chapter 1.md",
+    "imposters-handbook/Introduction.md",
+    "ideas/MIME Type.md"
+  ]
+}
