@@ -28,19 +28,22 @@ query {
 `
 
 const GardenPage = ({ data }) => {
-    return (
-        <Layout pageTitle="Digital Garden">
-            {data.allMarkdownRemark.edges.map(({ node }) => (
-                <div key={node.id}>
-                    <Link to={node.fields.slug}>
-                        <h2>
-                            {node.frontmatter.title}
-                        </h2>
-                    </Link>
-                </div>
-            ))}
-        </Layout >
-    )
+  return (
+    <Layout pageTitle="Digital Garden">
+      <div id="garden-post-list">
+        {data.allMarkdownRemark.edges.map(({ node }) => (
+          <div key={node.id}>
+            <Link to={node.fields.slug}>
+              <h2>
+                {node.frontmatter.title}
+              </h2>
+            </Link>
+            <div>Tags: {node.frontmatter.tags}</div>
+          </div>
+        ))}
+      </div>
+    </Layout >
+  )
 }
 
 export default GardenPage

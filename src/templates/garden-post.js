@@ -9,6 +9,7 @@ export const query = graphql`
       html
       frontmatter {
         title
+        tags
       }
     }
   }
@@ -20,6 +21,7 @@ export default function GardenPost({ data }) {
         <Layout>
             <div>
                 <h1>{post.frontmatter.title}</h1>
+                <h2>Tags: {post.frontmatter.tags[0]}</h2>
                 <div dangerouslySetInnerHTML={{ __html: post.html }} />
             </div>
         </Layout>
