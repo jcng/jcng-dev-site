@@ -30,13 +30,19 @@ query {
 const GardenPage = ({ data }) => {
   return (
     <Layout pageTitle="Digital Garden">
+      <h2>
+        What am I looking at?
+      </h2>
+      <p>
+        This isn't quite a blog, or a portfolio, or a tutorial site — it's a <strong>Digital Garden</strong>. You can think of it as a personal wiki, or an online notebook. Its a loose collection of ideas, notes, writings, and media, with no rules about what does or does not belong.
+      </p>
       <div id="garden-post-list">
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id}>
             <Link to={node.fields.slug}>
-              <h2>
+              <h3>
                 {node.frontmatter.title}
-              </h2>
+              </h3>
             </Link>
             <div>Tags: {node.frontmatter.tags}</div>
           </div>
