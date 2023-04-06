@@ -1,0 +1,29 @@
+.splashText {
+    font-family: 'JetBrains Mono';
+    font-size: 24px;
+    font-weight: 200;
+    margin: 5px 0;
+}
+
+.blogTitle {
+    color: var(--main-dark);
+    background-color: var(--main-light);
+    width: 3.75em;
+    padding: 0 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Staatliches';
+    font-size: 72px;
+    letter-spacing: 3px
+}
+
+.blogSubtitle {
+    font-family: 'Staatliches';
+    font-size: 40px;
+    margin: 50px 0 10px 0;
+}
+
+.exploreList li {
+    list-style-type: none;
+    font-family: 'JetBrains Mono';
+}
