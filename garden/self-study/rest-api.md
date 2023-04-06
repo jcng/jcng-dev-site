@@ -36,7 +36,7 @@ The client and server only need to know what types of requests are being sent an
 This means that systems that abide by a REST architecture are highly modular and flexible. Changes made on one (the client or the server) do not have bearing on the other.
 
 #### Statelessness
-Just as you REST enables you to not worry about how the client or server work, it also enables you to not worry about the *state* of each of those pieces. This means that you'll never need to take into account the history of requests you make. Each request is handled independently. There's a concept called [[indempotence]] which describes a function in which:
+Just as you REST enables you to not worry about how the client or server work, it also enables you to not worry about the *state* of each of those pieces. This means that you'll never need to take into account the history of requests you make. Each request is handled independently. There's a concept called [[idempotence]] which describes a function in which:
 > *Given the same input executed on the same state, this function will always provide the same output.*
 
 Since REST guarantees statelessness, that takes the "in the same state" part of that definition out of the question. That makes the logic for your requests a lot easier to think through -- there's far fewer corner cases to account for when you have guaranteed consistency that a given input will give you the same output every time.
@@ -51,7 +51,7 @@ The first piece of a request is a definition of the **type** of request being ma
 - `PUT/PATCH`: **U**pdate
 - `DELETE`: **D**elete
 
-A request also contains a **header**, which has an important parameter called the `Accept` field. The value of this parameter is a [[mime-type]], which is a type and subtype description of content. The server uses the information in the `Accept` field to make sure it isn't sending a response back that the client doesn't know what to do with. Some examples of MIME types are:
+A request also contains a **header**, which has an important parameter called the `Accept` field. The value of this parameter is a mime-type, which is a type and subtype description of content. The server uses the information in the `Accept` field to make sure it isn't sending a response back that the client doesn't know what to do with. Some examples of MIME types are:
 -  `image`: `image/png`, `image/jpeg`
 - `audio`: `audio/wav`
 - `video`: `video/mp4`
