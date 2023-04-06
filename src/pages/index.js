@@ -11,8 +11,8 @@ const IndexPage = () => {
       <div class={style.blogTitle}>jcng.dev</div>
       <div class={style.blogSubtitle}>explore</div>
       <ul class={style.exploreList}>
-        <li><Link to="/about" className={style.navLinkText}>About</Link></li>
-        <li><Link to="/garden" className={style.navLinkText}>Garden</Link></li>
+        <li><Link to="/about" className={style.navLinkText}>about</Link></li>
+        <li><Link to="/garden" className={style.navLinkText}>garden</Link></li>
       </ul>
     </Splash>
   )
