@@ -1,6 +1,7 @@
 import * as React from 'react'
 import { Link, useStaticQuery, graphql } from 'gatsby'
 import * as style from './layout.module.css'
+import "./global.css"
 
 const Layout = ({ pageTitle, children }) => {
     const data = useStaticQuery(graphql`
@@ -12,9 +13,17 @@ const Layout = ({ pageTitle, children }) => {
             }
         }
     `)
+
+
+    // If there's no page title, we don't want a hanging "|" in the title
+    let pageTitleString = ""
+    if (pageTitle != "") {
+        pageTitleString = pageTitle + "|"
+    }
+
     return (
         <main className={style.container}>
-            <title>{pageTitle} | {data.site.siteMetadata.title}</title>
+            <title>{pageTitleString} {data.site.siteMetadata.title}</title>
             <div>{data.site.siteMetadata.title}</div>
             <nav>
                 <ul className={style.navLinks}>

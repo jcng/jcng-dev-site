@@ -27,5 +27,22 @@ module.exports = {
         path: `${__dirname}/garden`,
       },
     },
+    {
+      resolve: `gatsby-omni-font-loader`,
+      options: {
+        enableListener: true,
+        preconnect: [`https://fonts.googleapis.com`, `https://fonts.gstatic.com`],
+        web: [
+          {
+            name: `Staatliches`,
+            file: `https://fonts.googleapis.com/css2?family=Staatliches&display=swap`,
+          },
+          {
+            name: `JetBrains Mono`,
+            file: `https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200;400&display=swap`,
+          },
+        ],
+      },
+    },
   ],
 };

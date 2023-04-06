@@ -1,17 +1,20 @@
 import * as React from 'react'
-import Layout from '../components/layout'
-import { StaticImage } from 'gatsby-plugin-image'
+import Splash from '../components/splash'
+import { Link } from 'gatsby'
+import * as style from './index.module.css'
 
 
 const IndexPage = () => {
   return (
-    <Layout pageTitle="Home Page">
-      <p>I'm making this by following the Gatsby Tutorial.</p>
-      <StaticImage
-        alt="Towering snowcapped mountains under a cloudy sky"
-        src="../images/jack-woodward-mountains.jpg"
-      />
-    </Layout>
+    <Splash pageTitle="">
+      <div class={style.splashText}>> welcome to</div>
+      <div class={style.blogTitle}>jcng.dev</div>
+      <div class={style.blogSubtitle}>explore</div>
+      <ul class={style.exploreList}>
+        <li><Link to="/about" className={style.navLinkText}>About</Link></li>
+        <li><Link to="/garden" className={style.navLinkText}>Garden</Link></li>
+      </ul>
+    </Splash>
   )
 }
 

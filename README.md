@@ -52,3 +52,24 @@
 Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
 
 [<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
+
+# Notes
+
+## Fonts
+Fonts are specified in `gatsby-config.js` using `gatsby-omni-font-loader`. For example:
+
+```js
+    {
+      resolve: `gatsby-omni-font-loader`,
+      options: {
+        enableListener: true,
+        preconnect: [`https://fonts.googleapis.com`, `https://fonts.gstatic.com`],
+        web: [
+          {
+            name: `Staatliches`,
+            file: `https://fonts.googleapis.com/css2?family=Staatliches&display=swap`,
+          },
+        ],
+      },
+    },
+```

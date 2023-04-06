@@ -1,6 +1,6 @@
 .container {
-    margin: auto;
-    max-width: 600px;
+    margin: 3%;
+    max-width: 90em;
     font-family: 'Helvetica Neue', sans-serif;
 }
 .nav-links {
@@ -10,7 +10,4 @@
 }
 .nav-link-item {
     padding-right: 2rem;
-}
-.nav-link-text {
-    color: black;
 }
