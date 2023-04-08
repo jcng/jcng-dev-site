@@ -1,15 +1,19 @@
 :root {
     --main-light: rgb(247, 247, 247);
     --main-dark: rgb(40, 40, 45);
+    --accent: #066785;
 }
 
 div, span, a, p, h1, h2, h3, h4, h5, h6 {
     color: var(--main-dark);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
 body {
     background-color: var(--main-light);
+}
+code {
+    font-family: "JetBrains Mono", 'Courier New', Courier, monospace;
+    color: var(--accent);
 }
 
 /* HOMEPAGE STYLES */
