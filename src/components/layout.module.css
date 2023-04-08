@@ -1,8 +1,18 @@
 .container {
-    margin: 3%;
+    margin: 68px 3% 3% 3%;
     max-width: 90em;
     font-family: 'Helvetica Neue', sans-serif;
 }
+
+.nav-container {
+    align-self: center;
+}
+
+.nav-container a {
+    font-family: 'JetBrains Mono', 'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+
 .nav-links {
     display: flex;
     list-style: none;
@@ -10,4 +20,29 @@
 }
 .nav-link-item {
     padding-right: 2rem;
+}
+
+.navbar {
+    background: var(--main-dark);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+}
+
+.navbar a {
+    color: var(--main-light)
+}
+
+.site-logo {
+    background-color: var(--main-light);
+    color: var(--main-dark);
+    width: 4.25em;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Staatliches';
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin: 10px;
 }
