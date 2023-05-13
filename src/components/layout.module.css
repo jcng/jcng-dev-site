@@ -31,18 +31,22 @@
     display: flex;
 }
 
-.navbar a {
+.navbar .nav-link-text {
     color: var(--main-light)
 }
-
 .site-logo {
-    background-color: var(--main-light);
+    display: flex;
+}
+.site-logo-link {
     color: var(--main-dark);
-    width: 4.25em;
     text-align: center;
     text-transform: uppercase;
     font-family: 'Staatliches';
     font-size: 30px;
     letter-spacing: 1px;
+    text-decoration: none;
+    width: 4.25em;
     margin: 10px;
+    background-color: var(--main-light);
+
 }

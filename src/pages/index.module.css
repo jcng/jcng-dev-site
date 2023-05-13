@@ -1,28 +1,5 @@
-.splashText {
-    font-family: 'JetBrains Mono', 'Courier New', Courier, monospace;
-    font-size: 24px;
-    font-weight: 200;
-    margin: 5px 0;
-    color: var(--main-light);
-}
-
-.blogTitle {
-    color: var(--main-dark);
-    background-color: var(--main-light);
-    width: 3.25em;
-    padding: 0 5px;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: 'Staatliches', Arial, Helvetica, sans-serif;
-    font-size: 72px;
-    letter-spacing: 3px
-}
-
-.blogSubtitle {
-    font-family: 'Staatliches', Arial, Helvetica, sans-serif;
-    font-size: 40px;
-    margin: 50px 0 10px 0;
-    color: var(--main-light);
+.exploreList {
+    max-width: 79px;
 }
 
 .exploreList li {
@@ -32,4 +9,45 @@
 .exploreList a {
     font-family: 'JetBrains Mono', 'Courier New', Courier, monospace;
     color: var(--main-light);
+    text-decoration: none;
+    transition: color 0.3s ease 0s, left 0.3s ease 0s;
+}
+
+.exploreList a:hover {
+    cursor: pointer;
+}
+
+/* *** START HOVER UNDERLINE *** */
+.exploreList a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    background: var(--main-light);
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.exploreList a:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+/* *** END HOVER UNDERLINE *** */
+.navLinkAbout:hover {
+    color: var(--about);
+}
+
+a.navLinkAbout:after {
+    background: var(--about);
+}
+
+.navLinkGarden:hover {
+    color: var(--garden);
+}
+
+a.navLinkGarden:after {
+    background: var(--garden);
 }
