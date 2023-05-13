@@ -29,13 +29,13 @@ const Layout = ({ pageTitle, children }) => {
                 <nav className={style.navContainer}>
                     <ul className={style.navLinks}>
                         <li className={style.navLinkItem}>
-                            <Link to="/" className={style.navLinkText}>Home</Link>
+                            <Link to="/" className={style.navLinkText}>home</Link>
                         </li>
                         <li className={style.navLinkItem}>
-                            <Link to="/about" className={style.navLinkText}>About</Link>
+                            <Link to="/about" className={style.navLinkText}>about</Link>
                         </li>
                         <li className={style.navLinkItem}>
-                            <Link to="/garden" className={style.navLinkText}>Garden</Link>
+                            <Link to="/garden" className={style.navLinkText}>garden</Link>
                         </li>
                     </ul>
                 </nav>

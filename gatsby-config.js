@@ -6,6 +6,12 @@ module.exports = {
   plugins: [
     "gatsby-plugin-gatsby-cloud",
     "gatsby-plugin-image",
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/attachments`,
+      },
+    },
     "gatsby-plugin-sharp",
     {
       resolve: "gatsby-transformer-remark",
@@ -13,7 +19,7 @@ module.exports = {
         plugins: [
           {
             resolve: 'gatsby-remark-obsidian',
-            options: {          
+            options: {
               highlightClassName: 'highlight', // optional
             },
           },
