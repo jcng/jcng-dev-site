@@ -15,7 +15,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "gatsby": "^5.8.1",
+    "gatsby": "^5.10.0",
     "gatsby-core-utils": "^4.10.0",
     "gatsby-omni-font-loader": "^2.0.2",
     "gatsby-plugin-gatsby-cloud": "^5.10.0",
