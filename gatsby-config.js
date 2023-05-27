@@ -5,13 +5,13 @@ module.exports = {
   },
   plugins: [
     "gatsby-plugin-gatsby-cloud",
-    "gatsby-plugin-image",
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/attachments`,
-      },
-    },
+    // "gatsby-plugin-image",
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     path: `${__dirname}/attachments`,
+    //   },
+    // },
     "gatsby-plugin-sharp",
     {
       resolve: "gatsby-transformer-remark",
