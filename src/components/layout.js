@@ -28,16 +28,13 @@ const Layout = ({ pageTitle, children }) => {
                 <div className={style.siteLogo}><Link to="/" className={style.siteLogoLink}>{data.site.siteMetadata.title}</Link></div>
                 <nav className={style.navContainer}>
                     <ul className={style.navLinks}>
-                        <li className={style.navLinkItem}>
-                            <Link to="/" className={style.navLinkText}>home</Link>
-                        </li>
-                        <li className={style.navLinkItem}>
+                        <li className={`${style.navLinkItem} ${style.navLinkItemAbout}`}>
                             <Link to="/about" className={style.navLinkText}>about</Link>
                         </li>
-                        <li className={style.navLinkItem}>
+                        <li className={`${style.navLinkItem} ${style.navLinkItemGarden}`}>
                             <Link to="/garden" className={style.navLinkText}>garden</Link>
                         </li>
-                        <li className={style.navLinkItem}>
+                        <li className={`${style.navLinkItem} ${style.navLinkItemBooks}`}>
                             <Link to="/books" className={style.navLinkText}>books</Link>
                         </li>
                     </ul>
