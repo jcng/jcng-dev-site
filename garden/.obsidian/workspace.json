@@ -4,38 +4,52 @@
     "type": "split",
     "children": [
       {
-        "id": "27d2d24d9b6702d1",
+        "id": "58d44318901062e1",
         "type": "tabs",
         "children": [
           {
-            "id": "25f0c28e76151297",
+            "id": "736da10908eecb3b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "books/This is How You Lose the Time War.md",
                 "mode": "source",
-                "source": true
+                "source": false
+              }
+            },
+            "group": "ea42aedba393e6a1"
+          },
+          {
+            "id": "00f140750fa723c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "books/This is How You Lose the Time War.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
         ]
       },
       {
-        "id": "af576c05e44195e6",
+        "id": "00118332db71f655",
         "type": "tabs",
         "children": [
           {
-            "id": "bc32fb1753a7074f",
+            "id": "e1a3ad0a1c3cb73a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "books/This is How You Lose the Time War.md",
-                "mode": "preview",
-                "source": true
+                "mode": "source",
+                "source": false
               }
-            }
+            },
+            "group": "ea42aedba393e6a1"
           }
         ]
       }
@@ -76,7 +90,7 @@
             }
           },
           {
-            "id": "8666ab16c56a482c",
+            "id": "bd32865bc9698cbe",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -130,23 +144,34 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "25f0c28e76151297",
+  "active": "736da10908eecb3b",
   "lastOpenFiles": [
-    "attachments",
     "books/attachments/this-is-how-you-lose-the-time-war.png",
-    "books/attachments",
-    "Screenshot 2023-05-12 at 4.40.35 PM.png",
-    "history-of/History of Music.md",
-    "About the Garden.md",
-    "self-study/Notebook Allegories.md",
+    "books/This is How You Lose the Time War.md",
+    "books/attachments/red-rising.jpg",
+    "attachments",
+    "image.png.md",
     "self-study/rest-api.md",
     "self-study/idempotence.md",
-    "books/This is How You Lose the Time War.md",
+    "self-study/Notebook Allegories.md",
+    "history-of/History of Music.md",
+    "history-of",
+    "books/attachments",
     "books",
-    "self-study/mime-type.md",
-    "indempotence.md",
+    "About the Garden.md",
     "rest-api.md",
+    "mime-type.md",
+    "indempotence.md",
     "Notebook Allegories.md",
-    "MIME Type.md"
+    "Introduction.md",
+    "Chapter 1.md",
+    "ideas/lessons-learned.md",
+    "ideas/Curb Cut Theory.md",
+    "ideas/Advocacy.md",
+    "self-study/mime-type.md",
+    "self-study/indempotence.md",
+    "imposters-handbook/Introduction.md",
+    "imposters-handbook/Chapter 1.md",
+    "Untitled.md"
   ]
 }

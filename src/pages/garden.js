@@ -1,6 +1,7 @@
 import * as React from 'react'
 import Layout from '../components/layout'
 import { Link, graphql } from 'gatsby'
+import * as style from './garden.module.css'
 
 export const query = graphql`
 query {
@@ -46,7 +47,7 @@ const GardenPage = ({ data }) => {
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id}>
             <Link to={node.fields.slug}>
-              <h3>
+              <h3 className={style.gardenPostTitle}>
                 {node.frontmatter.title}
               </h3>
             </Link>

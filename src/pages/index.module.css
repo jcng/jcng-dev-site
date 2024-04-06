@@ -51,3 +51,11 @@ a.navLinkAbout:after {
 a.navLinkGarden:after {
     background: var(--garden);
 }
+
+.navLinkBooks:hover {
+    color: var(--books);
+}
+
+a.navLinkBooks:after {
+    background: var(--books);
+}

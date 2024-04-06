@@ -4,4 +4,5 @@ date: "2023-05-12"
 tags: ["books"]
 featuredImage: "../attachments/this-is-how-you-lose-the-time-war.png"
 ---
-![[this-is-how-you-lose-the-time-war.png|300]]
+
+![This is How you Lose the Time War](attachments/this-is-how-you-lose-the-time-war.png)

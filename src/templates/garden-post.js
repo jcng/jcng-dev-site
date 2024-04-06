@@ -16,14 +16,14 @@ export const query = graphql`
 `
 
 export default function GardenPost({ data }) {
-    const post = data.markdownRemark
-    return (
-        <Layout>
-            <div>
-                <h1>{post.frontmatter.title}</h1>
-                <h2>Tags: {post.frontmatter.tags[0]}</h2>
-                <div dangerouslySetInnerHTML={{ __html: post.html }} />
-            </div>
-        </Layout>
-    )
+  const post = data.markdownRemark
+  return (
+    <Layout>
+      <div>
+        <h1>{post.frontmatter.title}</h1>
+        <h2>Tags: {post.frontmatter.tags[0]}</h2>
+        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+      </div>
+    </Layout>
+  )
 }
